@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://7hx67fgmuo8l"]
+
+[ext_resource type="Texture2D" uid="uid://cmjb8rw7qmjoc" path="res://new pigi UP & DOWN .png" id="1_b44oo"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="NewPigiUp&Down" type="Sprite2D" parent="."]
+position = Vector2(1, 1)
+texture = ExtResource("1_b44oo")
+hframes = 6
+vframes = 6

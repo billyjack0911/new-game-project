@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bntkrmkonsuky"]
+
+[ext_resource type="Texture2D" uid="uid://2hmrsq6k0tuq" path="res://New Piskel (1).png" id="1_frm03"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g6jqh"]
+radius = 40.0
+height = 80.0
+
+[node name="Golden Carrot" type="Area2D"]
+
+[node name="NewPiskel(1)" type="Sprite2D" parent="."]
+position = Vector2(2, 0)
+scale = Vector2(0.134375, 0.136458)
+texture = ExtResource("1_frm03")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_g6jqh")
